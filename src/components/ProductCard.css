@@ -1,0 +1,9 @@
+.caixa-produto{
+    border: solid 1px white;
+    text-align: start;
+}
+
+.preco-riscado{
+    color: light-gray #8F8F8F;
+    text-decoration: line-through;
+}
