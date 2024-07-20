@@ -1,50 +1,59 @@
 import React from "react";
 import ProductCard from "./ProductCard";
 import "./ProductListing.css"
+import sapatoIMG from '../assets/sapato.png';
 
 export default function ProductListing() {
     const products = [
         {
-            name: "Nome do produto 1",
-            image: "https://picsum.photos/292/321",
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
             price: 200,
-            priceDiscount: 149.9
+            priceDiscount: 100
         },
         {
-            name: "Nome do produto 2",
-            image: "https://picsum.photos/292/321",
-            price: 49.9,
-            priceDiscount: 39.9
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200,
+            priceDiscount: 100
         },
         {
-            name: "Nome do produto 3",
-            image: "https://picsum.photos/292/321",
-            price: 100
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200
         },
         {
-            name: "Nome do produto 4",
-            image: "https://picsum.photos/292/321",
-            price: 250
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200
         },
         {
-            name: "Nome do produto 5",
-            image: "https://picsum.photos/292/321",
-            price: 300
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200
         },
         {
-            name: "Nome do produto 6",
-            image: "https://picsum.photos/292/321",
-            price: 150
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200
         },
         {
-            name: "Nome do produto 7",
-            image: "https://picsum.photos/292/321",
-            price: 450
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200
         },
         {
-            name: "Nome do produto 8",
-            image: "https://picsum.photos/292/321",
-            price: 120
+            name: "K-WISS V8 - Masculino",
+            image: sapatoIMG,
+            categoria: "Tênis",
+            price: 200
         }
     ]
 
@@ -53,6 +62,7 @@ export default function ProductListing() {
             {products.map((product, index) => (
                 <ProductCard
                     key={index}
+                    categoria={product.categoria}
                     name={product.name}
                     image={product.image}
                     price={product.price}

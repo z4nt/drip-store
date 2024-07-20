@@ -1,9 +1,41 @@
 .caixa-produto{
-    border: solid 1px white;
     text-align: start;
 }
-
-.preco-riscado{
-    color: light-gray #8F8F8F;
-    text-decoration: line-through;
+.precoS{
+    margin: 0 0 0 0px;
 }
+.categoria{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #8F8F8F;
+    font-weight: 700;
+
+}
+
+.preco{
+    font-size: 24px;
+    color: black;
+    margin: 0 0 0 0px;
+}
+.preco-riscado{
+    color: darkgray !important ; 
+    text-decoration: line-through ;
+    font-size: 24px !important;
+}
+
+.discounted-price{
+    font-size: 24px;
+    color: black
+  }
+
+  .img{
+    width: 292px;
+    height: 321px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nome-produto{
+    margin: 0 0 0 0px;
+    color: #474747;
+    font-size: 24px;
+  }
