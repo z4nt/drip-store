@@ -1,0 +1,8 @@
+.lista-produto{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: rgb(243, 243, 252);
+    color: black;
+}
