@@ -1,0 +1,10 @@
+#root {
+    
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(243, 243, 252);
+    font-family: "Inter", sans-serif;
+  
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
