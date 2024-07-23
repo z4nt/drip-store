@@ -9,7 +9,7 @@
     margin-bottom: 0px;
     color: #8F8F8F;
     font-weight: 700;
-
+    font-size: 12px;
 }
 
 .preco{
@@ -18,9 +18,10 @@
     margin: 0 0 0 0px;
 }
 .preco-riscado{
-    color: darkgray !important ; 
+    color: darkgray  ; 
     text-decoration: line-through ;
-    font-size: 24px !important;
+    font-size: 24px ;
+    
 }
 
 .discounted-price{
