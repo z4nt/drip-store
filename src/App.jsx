@@ -5,6 +5,7 @@ import Nav from './components/Nav'
 import Carousel from './components/Carrosel'
 import ProductListing from './components/ProductListing'
 import Footer from './components/Footer'
+import OfertaESpecial from  './components/OfertaESpecial'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Nav/>
       <Carousel/>
       <ProductListing/>
+      <OfertaESpecial />
       <Footer/>
     </>
   )
