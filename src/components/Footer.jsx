@@ -12,7 +12,7 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="#" className="flex items-center">
-                  <img src={ LogoFooter } className="h-8 me-3"
+                  <img src={LogoFooter} className="h-8 me-3"
                     alt="logo da digital college" />
                 </a>
               </li>
@@ -26,23 +26,25 @@ export default function Footer() {
               </li>
             </ul>
             <div className="flex flex-row gap-10">
-                <div>
-                    <img src={LogoFacebook} alt="logo da facebook" />
-                </div>
-                <div>
-                    <img src={LogoInstagram} alt="logo da Instagram" />
-                </div>
-                <div>
-                    <img src={LogoTwitter} alt="logo da Twiiter" />
-                </div>
+              <div>
+                <img src={LogoFacebook} alt="logo da facebook" />
+              </div>
+              <div>
+                <img src={LogoInstagram} alt="logo da Instagram" />
+              </div>
+              <div>
+                <img src={LogoTwitter} alt="logo da Twiiter" />
+              </div>
             </div>
           </div>
-          <div className="flex justify-between border">
-            <div className="mr-24 border text-left">
-              <h2 className="mb-3 mx-10 text-sm font-semibold text-white-900 text-white">
-                Informação
-              </h2>
+          <div className="flex justify-between ">
+            <div className="mr-24 text-left">
               <ul className="text-white-500 font-medium text-white">
+                <li className="mb-3">
+                  <p className="mb-3 mr-10 text-sm font-semibold text-white-900 text-white">
+                    Informação
+                  </p>
+                </li>
                 <li className="mb-3">
                   <a href="#" className="hover:underline">
                     Sobre Drip Store
@@ -75,7 +77,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="border mr-24 text-left">
+            <div className=" mr-24 text-left">
               <h2 className="mb-3 text-sm font-semibold text-white  dark:text-white">
                 Categorias
               </h2>
@@ -107,8 +109,8 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="border mr-24 text-left">
-              <h2 className="mb-3 mx-10 text-sm font-semibold text-white  dark:text-white">
+            <div className="w-[220px] text-left">
+              <h2 className="mb-3 mr-10 text-sm font-semibold text-white  dark:text-white">
                 Contato
               </h2>
               <ul className="text-white dark:text-gray-400 font-medium">
