@@ -61,7 +61,7 @@ export default function ProductListing() {
     return (
         <>
 
-            <div className="mx-24" >
+            <div className="mx-[80px]" >
                 <div className="flex justify-between mb-2 mt-6 ">
                     <p className="text-[24px] text-[#474747] font-[700]">Produtos em alta</p>
                     <div className="flex align-middle items-center"><a href="" className="link-sem"><p className=" flex px-3 text-[#C92071] whitespace-nowrap" >Ver todos</p></a> <a href=""> <img className="w" src={seta} alt="" /> </a></div>
