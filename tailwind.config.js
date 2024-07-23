@@ -1,8 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}", // Inclui todos os arquivos relevantes dentro da pasta src
+  ],
   theme: {
-    extend: {},
+    extend: {}, // Aqui você pode adicionar customizações para temas
   },
-  plugins: [],
+  plugins: [], // Adicione plugins do Tailwind CSS se necessário
 }
