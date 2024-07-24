@@ -38,7 +38,7 @@ export default function Nav() {
           </div>
         </form>
 
-        <div className="flex items-center justify-end gap-4 w-[250px]">
+        <div className="flex items-center justify-end gap-3 w-[250px]">
           <div>Cadastre-se</div>
           <button class="bg-[#C92071] hover:bg-[#971655] text-white font-bold py-2 px-8 rounded">
             Entrar
