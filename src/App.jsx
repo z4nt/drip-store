@@ -6,13 +6,15 @@ import Carousel from './components/Carrosel'
 import ProductListing from './components/ProductListing'
 import Footer from './components/Footer'
 import OfertaESpecial from  './components/OfertaESpecial'
+import ColecoesEmDestaque from './components/ColecoesEmDestaque'
 
-function App() {
+export default function Colecoes() {
 
   return (
     <>
       <Nav/>
       <Carousel/>
+      <ColecoesEmDestaque/>
       <ProductListing/>
       <OfertaESpecial />
       <Footer/>
@@ -20,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+ 
