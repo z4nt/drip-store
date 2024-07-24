@@ -1,0 +1,29 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.desconto-allan{
+    position: absolute;
+    margin-top: 25px;
+    border-radius: 10px;
+    
+
+}
+.meio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icones-direção{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icones{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
