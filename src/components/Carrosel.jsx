@@ -15,6 +15,7 @@ function Carousel() {
 
         <Swiper
           spaceBetween={30}
+          loop={true}
           pagination={{
             clickable: true,
           }}
